@@ -1,0 +1,18 @@
+name = "Citrus"
+uuid = "56f8f35f-19cc-4c78-bd39-6fbe51a3d904"
+authors = ["Philipp Gewessler"]
+version = "0.1.0"
+
+[deps]
+CitrusAPI = "fb58f9c3-ae58-4847-ba51-3b3c84151ac7"
+CitrusBuilder = "28cec04b-85b5-4b92-beb9-e8851fc733f1"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
